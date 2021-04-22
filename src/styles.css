@@ -29,8 +29,8 @@ body {
   background-image: url(./images/fon3.png);
   background-color: black;
   text-align: center;
-  padding-left: 480px;
-  padding-right: 480px;
+  padding-left: 550px;
+  padding-right: 550px;
 }
 
 .container {
@@ -46,7 +46,7 @@ body {
 .box-country {
   padding: 15px;
   background-color: rgb(214, 228, 235);
-  height: 685px;
+  height: 740px;
   border-radius: 15px;
 }
 
