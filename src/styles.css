@@ -1,0 +1,61 @@
+import html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2 {
+  margin: 15px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+p,
+ul {
+  margin: 0;
+  padding-left: 4px;
+}
+
+body {
+  background-image: url(./images/fon3.png);
+  background-color: black;
+  text-align: center;
+  padding-left: 480px;
+  padding-right: 480px;
+}
+
+.container {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: sans-serif;
+}
+
+.photo {
+  width: 300px;
+}
+
+.box-country {
+  padding: 15px;
+  background-color: rgb(214, 228, 235);
+  height: 685px;
+  border-radius: 15px;
+}
+
+.languages {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.text {
+  margin-bottom: 15px;
+}
